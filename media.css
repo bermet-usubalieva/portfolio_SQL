@@ -74,8 +74,40 @@
     }
 }
 
-@media (max-width: 540px) {
-    .nav-list {
-        gap: 11px;
+@media (max-width: 500px) {
+    .wrap_img {
+        width: 120px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+        border-radius: 16%;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    li,
+    p {
+        font-size: 16px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .link__mail {
+        font-size: 13px;
     }
 }
