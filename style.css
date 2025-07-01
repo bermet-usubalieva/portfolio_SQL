@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Lato';
+    overflow-x: hidden;
 }
 
 img {

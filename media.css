@@ -1,4 +1,4 @@
-@media all and (max-width: 880px) {
+@media (max-width: 880px) {
     .left_side {
         background: rgb(244, 226, 211);
         padding: 20px 26px 0 26px;
@@ -7,7 +7,7 @@
 
 }
 
-@media all and (max-width: 840px) {
+@media (max-width: 840px) {
     .left_side {
         display: flex;
         flex-direction: column;
@@ -109,5 +109,17 @@
 
     .link__mail {
         font-size: 13px;
+    }
+}
+
+@media (max-width: 470px) {
+
+    li,
+    p {
+        font-size: 15px;
+    }
+
+    li {
+        margin-left: 10px;
     }
 }
