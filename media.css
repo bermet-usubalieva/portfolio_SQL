@@ -73,3 +73,9 @@
         gap: 11px;
     }
 }
+
+@media (max-width: 540px) {
+    .nav-list {
+        gap: 11px;
+    }
+}
